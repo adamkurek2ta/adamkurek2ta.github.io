@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <meta http-equiv="X-UA-Compatible" content = "ie=edge">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="lightbox.min.css">
+        <link rel="shortcut icon" href="img/flaga.jpg">
+        <title> Melbourne </title>
+        <script src="lightbox-plus-jquery.min.js"></script>
+        <script>
+            function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+            }
+        </script>
+    </head>
+    
+    <body>
+        <div id="logo">
+            <a href="index.html"><img src="img/logo.png">Melbourne</a>
+        </div>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Home</a>
+            <a href="galeria.html" >Galeria</a>
+            <a href="muzyka.html" class="active">Scena muzyczna Melbourne</a>
+            <a href="mapa.html">Mapa</a>
+            <a href="formularz.html">Formularz</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <div id="container">
+            <div class="contentmuzyka">
+                <h4><a href="#1">Przeskocz do: The Avalanches</a> | <a href="#2">King Gizzard & the Lizard Wizard</a></h4>
+                <h3><a id="1">The Avalanches</a></h3>
+                <img src="img/ava.jpg">
+                <table>
+                    <tr>
+                        <td>Rok założenia</td> <td>1997</td>
+                    </tr>
+                    <tr>
+                        <td>Gra do dziś?</td> <td>TAK!</td>
+                    </tr>
+                    <tr>
+                        <td>Gatunki:</td> <td> Plądrofonia, Eksperymentalny hip-hop Nu-disco </td>
+                    </tr>
+                    <tr>
+                    <td> Liczba albumów </td> <td>2</td>
+                    </tr>
+                </table>
+                Członkowie zespołu:
+                <ul>
+                    <li>Robbie Chater</li>
+                    <li>Tony Di Blasi</li>
+                    <li>Darren Seltmann</li>
+                </ul>
+                    <audio controls>
+	               <source src="img/ava.mp3.mp3" type="audio/mpeg">
+                    </audio>
+                
+                <h3><a id="2">King Gizzard & the Lizard Wizard</a></h3>
+                <img src="img/king.jpg">
+                <table>
+                    <tr>
+                        <td>Rok założenia</td> <td>2010</td>
+                    </tr>
+                    <tr>
+                        <td>Gra do dziś?</td> <td>TAK!</td>
+                    </tr>
+                    <tr>
+                        <td>Gatunki:</td> <td> Psychodeliczny rock, psychodeliczny pop</td>
+                    </tr>
+                    <tr>
+                    <td> Liczba albumów </td> <td>15</td>
+                    </tr>
+                </table>
+                Członkowie zespołu:
+                <ol>
+                    <li>Michael Cavanagh</li>
+                    <li>Cook Craig</li>
+                    <li>Ambrose Kenny-Smith</li>
+                    <li>Stu Mackenzie</li>
+                    <li>Eric Moore</li>
+                    <li>Lucas Harwood</li>
+                    <li>Joey Walker</li>
+                </ol>
+                <video controls>
+                <source src="img/king.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="przycisk">
+        <a href=#logo>Winda </a>
+            </div>
+        </div>
+        <div id="footer">
+        Adam Kurek 2ta
+        </div>
+        
+        
+    </body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <meta http-equiv="X-UA-Compatible" content = "ie=edge">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="lightbox.min.css">
+        <link rel="shortcut icon" href="img/flaga.jpg">
+        <title> Melbourne </title>
+        <script src="lightbox-plus-jquery.min.js"></script>
+        <script>
+            function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+            }
+        </script>
+    </head>
+    
+    <body>
+        <div id="logo">
+            <a href="index.html"><img src="img/logo.png">Melbourne</a>
+        </div>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Home</a>
+            <a href="galeria.html" >Galeria</a>
+            <a href="muzyka.html">Scena muzyczna Melbourne</a>
+            <a href="mapa.html" class="active">Mapa</a>
+            <a href="formularz.html">Formularz</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <div id="container">
+            <div class="content">
+                <h5> Mapka </h5>
+<div class="mapouter"><div class="gmap_canvas"><iframe width="900" height="600" id="gmap_canvas" src="https://maps.google.com/maps?q=melbourne&t=&z=9&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/en/"></a></div><style>.mapouter{position:relative;text-align:center;height:70vh;width:90vw;margin-left: auto;margin-right: auto; margin-top: 1.5vh;}.gmap_canvas {overflow:hidden;background:none!important;height:70vh;width:90vw;}</style></div>
+                <span id="tekstmapa">Żeby otworzyc mape w nowej karcie kliknij <a href="https://www.google.com/maps/search/melbourne/@-37.9447274,144.8529587,10.25z" target="_blank">*tutaj*</a>.</span>
+            </div>
+            <div class="przycisk">
+        <a href=#logo>Winda </a>
+            </div>
+        </div>
+        <div id="footer">
+        Adam Kurek 2ta
+        </div>
+        
+        
+    </body>
+</html>
